@@ -6,7 +6,7 @@ class Signin extends StatelessWidget {
   
   Widget build(BuildContext context) {
     return Scaffold(
-      resizeToAvoidBottomPadding: false,
+      resizeToAvoidBottomInset: false,
     );
   }
 }
@@ -23,7 +23,7 @@ class _SignPageState extends State<SignPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      resizeToAvoidBottomPadding: false,
+      resizeToAvoidBottomInset: false,
       body:Column(
         children: <Widget>[
           Container(
